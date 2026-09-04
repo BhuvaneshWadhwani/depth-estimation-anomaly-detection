@@ -49,7 +49,7 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python 07_image_model_applications.py
+python image_model_applications.py
 ```
 
 The script expects ADE20K and MVTec-AD under `data/`, while NYU-Depth-v2 is loaded through Hugging Face Datasets. Model weights and datasets are downloaded or read on first use. The full experiment benefits from a CUDA-capable machine and substantial storage.
